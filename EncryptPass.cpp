@@ -25,7 +25,7 @@ string decryptMyText(string const& stringToDecrypt, string const& key)
 
 class Infos{
 	private:
-		string name,userName,passWord;
+		string name,userName,passWord,eMail;
 		
 		void toClipboard(){
 			string passWordToShow;
@@ -50,6 +50,7 @@ class Infos{
 			name = " ";
 			userName = " ";
 			passWord = " ";
+			eMail = " ";
 		}
 		
 		void set_name(string name){
